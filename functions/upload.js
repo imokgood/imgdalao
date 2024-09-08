@@ -9,7 +9,7 @@ export async function onRequestPost(context) {  // Contents of context object
      } = context;
      context.request
      const url = new URL(request.url);
-     const response = fetch('https://telegra.ph/' + url.pathname + url.search, {
+     const response = fetch('https://pic.518365.xyz/' + url.pathname + url.search, {
          method: request.method,
          headers: request.headers,
          body: request.body,
